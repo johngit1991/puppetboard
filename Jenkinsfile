@@ -9,7 +9,7 @@ pipeline {
         }   
         stage('Compile') {    
             steps {     
-                  sh(libraryResource('input/python.sh'))
+                  sh(libraryResource('eu/inuits//python.sh'))
             }             
         }          
     }
