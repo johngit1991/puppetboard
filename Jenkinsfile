@@ -9,8 +9,8 @@ pipeline {
         }   
         stage('Compile') {    
             steps {     
-                  sh(libraryResource('input/python.sh'))
+                  sh(libraryResource('resources/input/python.sh'))
             }             
         }          
     }
-}J
+}
